@@ -6,7 +6,16 @@
 /*   By: remanuel <remanuel@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/25 12:56:37 by remanuel          #+#    #+#             */
-/*   Updated: 2022/10/25 12:57:41 by remanuel         ###   ########.fr       */
+/*   Updated: 2022/10/26 12:27:44 by remanuel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
+
+int	ft_isdigit(int c)
+{
+	if (c >= '0' && c <= '9')
+		return (1);
+	else
+		return (0);
+}

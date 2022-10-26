@@ -6,7 +6,16 @@
 /*   By: remanuel <remanuel@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/25 12:56:40 by remanuel          #+#    #+#             */
-/*   Updated: 2022/10/25 12:57:39 by remanuel         ###   ########.fr       */
+/*   Updated: 2022/10/26 12:27:38 by remanuel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
+
+int	ft_isascii(int c)
+{
+	if (c >= '0' && c <= '127')
+		return (1);
+	else
+		return (0);
+}
