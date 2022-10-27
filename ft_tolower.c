@@ -6,7 +6,15 @@
 /*   By: remanuel <remanuel@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/25 12:53:52 by remanuel          #+#    #+#             */
-/*   Updated: 2022/10/25 12:55:04 by remanuel         ###   ########.fr       */
+/*   Updated: 2022/10/27 15:47:44 by remanuel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
+
+int	ft_tolower(int c)
+{
+	if (c >= 'A' && c <= 'Z')
+		c += 32;
+	return (c);
+}

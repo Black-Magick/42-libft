@@ -6,7 +6,7 @@
 /*   By: remanuel <remanuel@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/25 12:56:40 by remanuel          #+#    #+#             */
-/*   Updated: 2022/10/26 12:27:38 by remanuel         ###   ########.fr       */
+/*   Updated: 2022/10/27 17:57:34 by remanuel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 int	ft_isascii(int c)
 {
-	if (c >= '0' && c <= '127')
+	if (c >= 0 && c <= 127)
 		return (1);
 	else
 		return (0);
