@@ -6,7 +6,13 @@
 /*   By: remanuel <remanuel@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/25 12:56:50 by remanuel          #+#    #+#             */
-/*   Updated: 2022/10/25 12:57:30 by remanuel         ###   ########.fr       */
+/*   Updated: 2022/10/31 16:40:22 by remanuel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
+
+void	ft_bzero(void *s, size_t n)
+{
+	ft_memset(s, 0, n);
+}
