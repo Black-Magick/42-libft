@@ -6,7 +6,7 @@
 /*   By: remanuel <remanuel@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/26 15:39:39 by remanuel          #+#    #+#             */
-/*   Updated: 2022/11/02 16:23:05 by remanuel         ###   ########.fr       */
+/*   Updated: 2022/11/03 18:28:33 by remanuel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,5 +36,9 @@ void	ft_bzero(void *s, size_t n);
 void	*ft_memcpy(void *dst, const void *src, size_t n);
 void	*ft_memmove(void *dst, const void *src, size_t n);
 char	*ft_strchr(const char *s, int c);
+char *ft_strrchr(const char *s, int c);
+void	*ft_memchr(const void *s, int c, size_t n);
+char	*ft_strnstr(const char *big, const char *small, size_t n);
+int	ft_atoi(const char *nptr);
 
 #endif
