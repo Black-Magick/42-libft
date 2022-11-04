@@ -6,7 +6,21 @@
 /*   By: remanuel <remanuel@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/25 12:55:58 by remanuel          #+#    #+#             */
-/*   Updated: 2022/10/25 12:58:16 by remanuel         ###   ########.fr       */
+/*   Updated: 2022/11/04 16:43:26 by remanuel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
+
+char	*ft_strdup(char *src)
+{
+	size_t	index;
+	char	*new_str;
+	
+	index = ft_strlen(src) + 1;
+	new_str = malloc(sizeof(char) * index);
+	if (!new_str)
+		return (NULL);
+	ft_memcpy(new_str, src, index);
+	return (new_str);
+}
