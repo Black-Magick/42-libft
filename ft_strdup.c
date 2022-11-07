@@ -6,13 +6,13 @@
 /*   By: remanuel <remanuel@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/25 12:55:58 by remanuel          #+#    #+#             */
-/*   Updated: 2022/11/04 16:43:26 by remanuel         ###   ########.fr       */
+/*   Updated: 2022/11/07 16:31:23 by remanuel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_strdup(char *src)
+char	*ft_strdup(const char *src)
 {
 	size_t	index;
 	char	*new_str;
