@@ -1,39 +1,19 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_split.c                                         :+:      :+:    :+:   */
+/*   ft_lstadd_front.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: remanuel <remanuel@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/10/25 12:56:03 by remanuel          #+#    #+#             */
-/*   Updated: 2022/11/09 10:22:39 by remanuel         ###   ########.fr       */
+/*   Created: 2022/11/09 12:48:57 by remanuel          #+#    #+#             */
+/*   Updated: 2022/11/09 17:58:22 by remanuel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-/*static int	word_count(const char *str, char sep)
+/*void	ft_lstadd_front(t_list **lst, t_list *new)
 {
-	size_t	word_nr;
-	size_t	is_word;
-
-	word_nr = 0;
-	is_word = 0;
-	while (*str)
-	{
-		if (*str ==  )
-		{
-			
-		}
-		
-	}
-	
-	
-	
-}
-
-
-char	**ft_split(const char *str, char sep)
-{
-	
+	t_list *temp_new;
+	temp_new = 
 }*/

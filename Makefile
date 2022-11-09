@@ -6,7 +6,7 @@
 #    By: remanuel <remanuel@student.42lisboa.com    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/10/31 16:06:57 by remanuel          #+#    #+#              #
-#    Updated: 2022/11/02 09:34:31 by remanuel         ###   ########.fr        #
+#    Updated: 2022/11/09 12:44:53 by remanuel         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -34,3 +34,5 @@ clean:
 fclean: clean
 		$(RM)	$(NAME)
 re:	fclean	$(NAME)
+bonus:	$(SRC:=.o)	$(BONUS:=.o)
+		ar rc $(NAME) $(SRC:=.o)	$(BONUS:=.o)

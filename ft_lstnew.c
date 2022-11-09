@@ -1,39 +1,24 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_split.c                                         :+:      :+:    :+:   */
+/*   ft_lstnew.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: remanuel <remanuel@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/10/25 12:56:03 by remanuel          #+#    #+#             */
-/*   Updated: 2022/11/09 10:22:39 by remanuel         ###   ########.fr       */
+/*   Created: 2022/11/09 11:28:16 by remanuel          #+#    #+#             */
+/*   Updated: 2022/11/09 12:33:18 by remanuel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-/*static int	word_count(const char *str, char sep)
+t_list	*ft_lstnew(void *content)
 {
-	size_t	word_nr;
-	size_t	is_word;
-
-	word_nr = 0;
-	is_word = 0;
-	while (*str)
-	{
-		if (*str ==  )
-		{
-			
-		}
-		
-	}
-	
-	
-	
+	t_list	*new_node;
+	new_node = (t_list *)malloc(sizeof(t_list));
+	if (!new_node)
+		return (NULL);
+	new_node->content = content;
+	new_node->next = NULL;
+	return (new_node);
 }
-
-
-char	**ft_split(const char *str, char sep)
-{
-	
-}*/
