@@ -6,7 +6,7 @@
 /*   By: remanuel <remanuel@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/26 15:39:39 by remanuel          #+#    #+#             */
-/*   Updated: 2022/11/14 16:38:17 by remanuel         ###   ########.fr       */
+/*   Updated: 2022/11/14 18:04:55 by remanuel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,6 +54,10 @@ char	*ft_strmapi(const char *str, char (*f)(unsigned int, char));
 void	ft_striteri(char *str, void (*f)(unsigned int, char*));
 char	*ft_itoa(int n);
 char	**ft_split(const char *str, char sep);
+void	ft_putchar_fd(char c, int fd);
+void	ft_putstr_fd(char *str, int fd);
+void	ft_putendl_fd(char *str, int fd);
+void	ft_putnbr_fd(int n, int fd);
 
 //                              BONUS                               //
 

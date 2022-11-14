@@ -6,7 +6,13 @@
 /*   By: remanuel <remanuel@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/25 12:56:17 by remanuel          #+#    #+#             */
-/*   Updated: 2022/10/25 12:58:10 by remanuel         ###   ########.fr       */
+/*   Updated: 2022/11/14 17:30:27 by remanuel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
+
+void	ft_putchar_fd(char c, int fd)
+{
+	write(fd, &c, 1);
+}
