@@ -6,7 +6,7 @@
 /*   By: remanuel <remanuel@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/10 15:37:09 by remanuel          #+#    #+#             */
-/*   Updated: 2022/11/10 15:59:05 by remanuel         ###   ########.fr       */
+/*   Updated: 2022/11/16 10:55:19 by remanuel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,8 @@
 
 t_list	*ft_lstlast(t_list *lst)
 {
-	t_list *ptr;
-	
+	t_list	*ptr;
+
 	ptr = lst;
 	if (ptr == NULL)
 		return (NULL);

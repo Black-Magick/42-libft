@@ -6,7 +6,7 @@
 /*   By: remanuel <remanuel@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/10 17:47:51 by remanuel          #+#    #+#             */
-/*   Updated: 2022/11/10 17:55:13 by remanuel         ###   ########.fr       */
+/*   Updated: 2022/11/16 10:46:28 by remanuel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,13 +15,13 @@
 void	ft_lstiter(t_list *lst, void (*f)(void *))
 {
 	t_list	*ptr;
-	
+
 	ptr = lst;
 	if (!lst)
 		return ;
 	while (ptr != NULL)
-		{
-			f(ptr->content);
-			ptr = ptr->next;
-		}
+	{
+		f(ptr->content);
+		ptr = ptr->next;
+	}
 }

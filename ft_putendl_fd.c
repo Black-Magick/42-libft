@@ -6,7 +6,7 @@
 /*   By: remanuel <remanuel@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/25 12:56:15 by remanuel          #+#    #+#             */
-/*   Updated: 2022/11/14 18:05:31 by remanuel         ###   ########.fr       */
+/*   Updated: 2022/11/16 10:46:56 by remanuel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 void	ft_putendl_fd(char *str, int fd)
 {
 	int	index;
-	
+
 	index = 0;
 	while (str[index] != '\0')
 	{

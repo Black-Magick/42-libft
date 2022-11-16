@@ -6,7 +6,7 @@
 /*   By: remanuel <remanuel@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/10 16:06:46 by remanuel          #+#    #+#             */
-/*   Updated: 2022/11/10 16:19:08 by remanuel         ###   ########.fr       */
+/*   Updated: 2022/11/16 10:51:39 by remanuel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 void	ft_lstadd_back(t_list **lst, t_list *new)
 {
-	t_list *temp;
+	t_list	*temp;
 
 	if (!new || !lst)
 		return ;

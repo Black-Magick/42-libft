@@ -6,7 +6,7 @@
 /*   By: remanuel <remanuel@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/25 12:56:03 by remanuel          #+#    #+#             */
-/*   Updated: 2022/11/14 17:03:10 by remanuel         ###   ########.fr       */
+/*   Updated: 2022/11/16 10:53:54 by remanuel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,7 +58,7 @@ char	**ft_split(const char *str, char sep)
 	size_t	new_str_i;
 	size_t	str_i;
 	char	**new_str;
-	
+
 	new_str = malloc(sizeof(char *) * (word_count(str, sep) + 1));
 	if (new_str == NULL)
 		return (NULL);

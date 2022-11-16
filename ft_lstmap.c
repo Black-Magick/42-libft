@@ -6,7 +6,7 @@
 /*   By: remanuel <remanuel@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/11 09:54:07 by remanuel          #+#    #+#             */
-/*   Updated: 2022/11/14 10:45:51 by remanuel         ###   ########.fr       */
+/*   Updated: 2022/11/16 10:51:55 by remanuel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 	t_list	*lst_new;
 	t_list	*new_node;
 	t_list	*ptr;
-	
+
 	if (!lst)
 		return (NULL);
 	ptr = lst;

@@ -6,7 +6,7 @@
 /*   By: remanuel <remanuel@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/25 12:56:31 by remanuel          #+#    #+#             */
-/*   Updated: 2022/11/08 14:59:23 by remanuel         ###   ########.fr       */
+/*   Updated: 2022/11/16 10:53:33 by remanuel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,7 +34,7 @@ char	*ft_itoa(int n)
 	int			size;
 	long int	number;
 	char		*str;
-	
+
 	number = n;
 	size = digit_nr(n);
 	str = (char *)malloc(size + 1);

@@ -6,7 +6,7 @@
 /*   By: remanuel <remanuel@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/26 15:39:39 by remanuel          #+#    #+#             */
-/*   Updated: 2022/11/14 18:04:55 by remanuel         ###   ########.fr       */
+/*   Updated: 2022/11/16 10:53:20 by remanuel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -61,7 +61,7 @@ void	ft_putnbr_fd(int n, int fd);
 
 //                              BONUS                               //
 
-typedef struct	s_list
+typedef struct s_list
 {
 	void			*content;
 	struct s_list	*next;
